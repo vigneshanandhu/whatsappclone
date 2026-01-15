@@ -246,7 +246,7 @@ button {
     }
 
     .two {
-        height: 100vh;
+        min-height: 100svh;
         width: 100%;
         margin-left: 0px;
         max-width: 100%;
@@ -254,7 +254,7 @@ button {
     }
 
     .search input {
-        width: 400px;
+        width: 320px;
         margin-left: 5px;
     }
 
