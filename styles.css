@@ -254,7 +254,7 @@ button {
     }
 
     .search input {
-        width: 320px;
+        width: 400px;
         margin-left: 5px;
     }
 
@@ -321,6 +321,7 @@ button {
         padding-left: 40px;
         background-color: rgb(245, 240, 240);
         height: 60px;
+        position: sticky;
     }
 
     .horiz-icon i {
