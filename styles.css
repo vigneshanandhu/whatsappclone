@@ -12,7 +12,7 @@ body {
 .container {
     display: flex;
     width: 100%;
-    
+
     height: 100vh;
     overflow: hidden;
 }
@@ -178,7 +178,7 @@ body {
 
 .horiz-icon {
 
-    display: none;
+    display: none
 }
 
 .three {
@@ -228,7 +228,9 @@ button {
     color: black;
     font-size: 20px;
 }
-
+#plus-icon{
+    display:none;
+}
 @media(max-width:640px) {
 
     html,
@@ -237,9 +239,10 @@ button {
         overflow-x: hidden;
         box-sizing: border-box;
     }
-    .container{
+
+    .container {
         width: 100%;
-       height: auto;
+        height: 100svh;
     }
 
     .one {
@@ -256,29 +259,30 @@ button {
         margin-left: 0px;
         max-width: 100%;
         overflow-x: hidden;
+         
     }
 
     .search input {
-        width: 320px;
+        width: 100%;
         margin-left: 5px;
+        margin-right: 15px;
     }
 
     #search-i {
         left: 30px;
     }
-
+    .head .cam-icon{
+        display: block;
+        margin-left: 370px;
+    }
     .head h2 {
         padding-left: 30px;
         font-size: 25px;
 
     }
-    
+
     #head-i {
-        position: relative;
-        left: 160px;
-        top: 420px;
-        font-size: 25px;
-        position: fixed;
+        display: none;
     }
 
     .head i {
@@ -289,18 +293,21 @@ button {
 
     .headi2 {
         position: relative;
-        left: 90px;
+        left:20px;
     }
 
-    .chats {
-        width: 100%;
-        position: relative;
-        left: 20px;
-    }
+
+    
+
+
 
     .user .user-message {
         font-size: 12px;
         margin-top: 5px;
+    }
+
+    .time {
+        padding-left: 26em;
     }
 
     .tickicon i {
@@ -313,12 +320,24 @@ button {
     .differ {
         padding-left: 30px;
     }
+    #plus-icon{
+        display:block;
+        position: fixed;
+        bottom: 80px;
+        right: 50px;
+        font-size: 25px;
+        color: black;
+        
+      
+        padding: 15px;
+        
+    }
 
     .horiz-icon {
         display: block;
         font-size: 25px;
         display: flex;
-       justify-content: space-around;
+        justify-content: space-around;
         padding-left: 40px;
         background-color: rgb(245, 240, 240);
         height: 60px;
@@ -332,11 +351,5 @@ button {
         margin-top: 15px;
     }
 
-    .head .cam-icon {
-        display: block;
-        position: relative;
-        left: 80px;
-
-    }
-
 }
+
