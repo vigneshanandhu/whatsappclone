@@ -273,7 +273,7 @@ button {
     }
     .head .cam-icon{
         display: block;
-        margin-left: 370px;
+        margin-left: 22rem;
     }
     .head h2 {
         padding-left: 30px;
@@ -313,7 +313,7 @@ button {
     }
 
     .time {
-        padding-left: 26em;
+        padding-left: 19rem;
     }
 
     .tickicon i {
