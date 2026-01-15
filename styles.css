@@ -228,137 +228,122 @@ button {
     color: black;
     font-size: 20px;
 }
-#plus-icon{
-    display:none;
+
+#plus-icon {
+    display: none;
 }
-@media(max-width:640px) {
+
+@media (max-width: 640px) {
 
     html,
     body {
         width: 100%;
+        margin: 0;
+        padding: 0;
         overflow-x: hidden;
-        box-sizing: border-box;
     }
 
     .container {
         width: 100%;
-        height: 100svh;
+        height: auto;
     }
 
-    .one {
-        display: none;
-    }
-
+    .one,
     .three {
         display: none;
     }
 
+
     .two {
-        min-height: 100svh;
         width: 100%;
-        margin-left: 0px;
-        max-width: 100%;
-        overflow-x: hidden;
-         
+        margin-left: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
 
-    .search input {
-        width: 100%;
-        margin-left: 5px;
-        margin-right: 15px;
-    }
 
-    #search-i {
-        left: 30px;
-    }
-    .head .cam-icon{
-        display: block;
-        margin-left: 22rem;
-    }
     .head h2 {
-        padding-left: 30px;
-        font-size: 25px;
-
+        font-size: 22px;
+        padding-left: 20px;
     }
 
     #head-i {
-        display: none;
+        padding-left: 90px;
     }
 
     .head i {
-        font-size: 18px;
-        margin-top: 25px;
-
+        font-size: 20px;
+        margin-top: 22px;
     }
 
-    .headi2 {
-        position: relative;
-        left:20px;
+    .head .cam-icon {
+        display: block;
     }
 
-  .chats {
-    flex: 1;
-    width: 100%;
-    overflow-y: auto;
-    padding-bottom: 70px;
-  }
+    .search input {
+        width: 90%;
+    }
 
-  .chat1 {
-    width: 95%;
-    margin: 10px auto;
-  }
+    #search-i {
+        left: 25px;
+    }
 
 
+    .differ {
+        padding-left: 15px;
+        flex-wrap: wrap;
+    }
 
-    .user .user-message {
-        font-size: 12px;
-        margin-top: 5px;
+
+    .chats {
+        flex: 1;
+        width: 100%;
+        overflow-y: auto;
+        padding-bottom: 70px;
+    }
+
+    .chat1 {
+        width: 95%;
+        margin: 10px auto;
     }
 
     .time {
-        padding-left: 19rem;
+        font-size: 11px;
+        padding-left: 20px;
     }
 
-    .tickicon i {
-        position: relative;
-        bottom: 8px;
-
-        font-size: 12px;
+    .user .user-message {
+        font-size: 13px;
     }
 
-    .differ {
-        padding-left: 30px;
-    }
-    #plus-icon{
-        display:block;
+    #plus-icon {
+        display: block;
         position: fixed;
-        bottom: 10vh;
-        right: 8vw;
-        font-size: 25px;
+        bottom: 80px;
+        right: 20px;
+        font-size: 30px;
         color: black;
-        
-      
-        padding: 15px;
-        
+
+        padding: 10px;
+
+        z-index: 1000;
     }
 
     .horiz-icon {
-        display: block;
-        font-size: 25px;
         display: flex;
         justify-content: space-around;
-        padding-left: 40px;
-        background-color: rgb(245, 240, 240);
-        height: 60px;
-        width: 100%;
         position: fixed;
         bottom: 0;
-        padding-left: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        background-color: rgb(245, 240, 240);
+        border-top: 1px solid #ccc;
     }
 
     .horiz-icon i {
-        margin-top: 15px;
+        margin-top: 18px;
+        font-size: 22px;
     }
-
 }
-
