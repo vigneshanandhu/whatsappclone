@@ -296,14 +296,17 @@ button {
         left:20px;
     }
 
-  .chats{
+  .chats {
+    flex: 1;
     width: 100%;
-    max-width: 100%;
+    overflow-y: auto;
+    padding-bottom: 70px;
   }
-  .chat1{
-    width: 90%;
+
+  .chat1 {
+    width: 95%;
+    margin: 10px auto;
   }
-    
 
 
 
