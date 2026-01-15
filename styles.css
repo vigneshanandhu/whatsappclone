@@ -298,6 +298,7 @@ button {
 
   .chats{
     width: 100%;
+    max-width: 100%;
   }
   .chat1{
     width: 90%;
@@ -328,8 +329,8 @@ button {
     #plus-icon{
         display:block;
         position: fixed;
-        bottom: 80px;
-        right: 50px;
+        bottom: 10vh;
+        right: 8vw;
         font-size: 25px;
         color: black;
         
