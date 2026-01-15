@@ -296,7 +296,12 @@ button {
         left:20px;
     }
 
-
+  .chats{
+    width: 100%;
+  }
+  .chat1{
+    width: 90%;
+  }
     
 
 
