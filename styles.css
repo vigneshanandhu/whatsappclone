@@ -228,99 +228,100 @@ button {
     color: black;
     font-size: 20px;
 }
-#plus-icon{
-    display:none;
+
+#plus-icon {
+    display: none;
 }
+
 @media (max-width: 640px) {
 
-  html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden; /* ❗ stop full page scroll */
-  }
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+    }
 
-  .container {
-    height: 100svh;
-    overflow: hidden;
-  }
+    .container {
+        height: 100svh;
+        overflow: hidden;
+    }
 
-  .one,
-  .three {
-    display: none;
-  }
+    .one,
+    .three {
+        display: none;
+    }
 
-  .two {
-    width: 100%;
-    height: 100svh;
-    margin-left: 0;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-  }
+    .two {
+        width: 100%;
+        height: 100svh;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
 
-  /* ---------- TOP SECTION ---------- */
-  .head,
-  .search,
-  .differ {
-    flex-shrink: 0;
-    background: white;
-    z-index: 10;
-  }
+    .head,
+    .search,
+    .differ {
+        flex-shrink: 0;
+        background: white;
+        z-index: 10;
+    }
 
-  .head .cam-icon {
-    display: block;
-    margin-left: auto;
-    margin-right: 15px;
-  }
+    .head .cam-icon {
+        display: block;
+        margin-left: auto;
+        margin-right: 15px;
+    }
 
-  #head-i {
-    display: none;
-  }
+    #head-i {
+        display: none;
+    }
 
-  /* ---------- CHATS ONLY SCROLL ---------- */
-  .chats {
-    flex: 1;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    padding-bottom: 80px; /* space for bottom nav */
-  }
 
-  .chat1 {
-    width: 95%;
-    margin: 10px auto;
-  }
+    .chats {
+        flex: 1;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 80px;
+    }
 
-  /* ---------- FLOATING PLUS ICON ---------- */
-  #plus-icon {
-    display: block;
-    position: fixed;
-    bottom: 80px; /* above bottom nav */
-    right: 20px;
-    font-size: 26px;
-    background: #25D366;
-    color: white;
-    padding: 15px;
-    border-radius: 50%;
-    z-index: 20;
-  }
+    .chat1 {
+        width: 95%;
+        margin: 10px auto;
+    }
 
-  /* ---------- BOTTOM NAV ---------- */
-  .horiz-icon {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 60px;
-    width: 100%;
-    background-color: rgb(245, 240, 240);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: 15;
-  }
+    #plus-icon {
+        display: block;
+        position: fixed;
+        bottom: 80px;
+        right: 20px;
+        font-size: 25px;
 
-  .horiz-icon i {
-    font-size: 24px;
-  }
+        color: black;
+        padding: 15px;
+        border-radius: 50%;
+        z-index: 20;
+    }
+
+
+    .horiz-icon {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(245, 240, 240);
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 15;
+    }
+
+    .horiz-icon i {
+        font-size: 24px;
+    }
 
 }
