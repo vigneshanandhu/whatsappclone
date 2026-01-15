@@ -1,0 +1,337 @@
+html,
+body {
+    background-color: rgb(245, 240, 240);
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.one {
+    width: 60px;
+    height: 625px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    border-right: solid black 1px;
+
+
+}
+
+.one i {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+#settings {
+    margin-top: 230px;
+}
+
+.one img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.two {
+    width: 400px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+
+.head {
+
+    display: flex;
+
+
+}
+
+.head h2 {
+    padding-left: 20px;
+    color: green;
+}
+
+.head i {
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+#head-i {
+    padding-left: 130px;
+}
+
+.head .cam-icon {
+    display: none;
+}
+
+.search {
+    display: flex;
+
+
+}
+
+#search-i {
+    position: relative;
+    left: 35px;
+    padding-top: 8px;
+
+    font-size: 15px;
+
+}
+
+.search input {
+    height: 30px;
+    width: 310px;
+    padding-left: 50px;
+    background-color: rgb(245, 240, 240);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.search input:hover {
+    border: solid black 1px;
+}
+
+.differ {
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+
+}
+
+.differ p {
+    border: solid lightgray 1px;
+    padding: 5px 10px;
+    border-radius: 80px;
+}
+
+.differ p:hover {
+    background-color: rgb(245, 240, 240);
+    cursor: pointer;
+}
+
+.chats {
+    height: 100vh;
+    flex: 1;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #bbb transparent;
+}
+
+.chat1 {
+    display: flex;
+    margin: 20px;
+    border-radius: 10px;
+    height: 70px;
+
+
+}
+
+.chat1:hover {
+    background-color: rgb(245, 240, 240);
+
+    cursor: pointer;
+}
+
+.chat1 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.user .user-message {
+    position: relative;
+    bottom: 15px;
+    left: 5px;
+}
+
+.time {
+
+    padding-top: 19px;
+    font-size: 12px;
+    padding-left: 60px;
+}
+
+.horiz-icon {
+
+    display: none;
+}
+
+.three {
+    width: 800px;
+    height: 625px;
+    text-align: center;
+}
+
+.three img {
+    width: 300px;
+    height: 200px;
+    padding-top: 100px;
+
+}
+
+.three p {
+    font-size: 24px;
+    padding-left: 50px;
+    color: gray;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 1px;
+
+}
+
+.end i {
+    padding-top: 23px;
+    position: relative;
+    left: 50px;
+
+}
+
+.end p {
+    color: black;
+    font-size: 20px;
+}
+
+@media(max-width:425px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    .one {
+        display: none;
+    }
+
+    .three {
+        display: none;
+    }
+
+    .two {
+        height: 100vh;
+        width: 100%;
+        margin-left: 0px;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .search input {
+        width: 320px;
+        margin-left: 5px;
+    }
+
+    #search-i {
+        left: 30px;
+    }
+
+    .head h2 {
+        padding-left: 30px;
+        font-size: 25px;
+
+    }
+
+    #head-i {
+        position: relative;
+        left: 45px;
+        top: 420px;
+        font-size: 25px;
+    }
+
+    .head i {
+        font-size: 18px;
+        margin-top: 25px;
+
+    }
+
+    .headi2 {
+        position: relative;
+        left: -40px;
+    }
+
+    .chats {
+        width: 420px;
+        overflow-x: hidden;
+    }
+
+    .time {
+        padding-right: 50px;
+        position: relative;
+        left: 60px;
+    }
+
+    .user .user-message {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .tickicon i {
+        position: relative;
+        bottom: 8px;
+
+        font-size: 12px;
+    }
+
+    .differ {
+        padding-left: 30px;
+    }
+
+    .horiz-icon {
+        display: block;
+        font-size: 25px;
+        display: flex;
+        gap: 70px;
+        padding-left: 40px;
+        background-color: rgb(245, 240, 240);
+        height: 60px;
+    }
+
+    .horiz-icon i {
+        margin-top: 15px;
+    }
+
+    .head .cam-icon {
+        display: block;
+        position: relative;
+        left: -40px;
+
+    }
+
+}
